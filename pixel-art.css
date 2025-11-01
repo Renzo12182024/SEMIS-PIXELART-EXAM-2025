@@ -1,0 +1,3440 @@
+table {
+    background-color: rgb(158, 218, 158);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 0.25px solid black;
+    border-collapse: collapse;
+}
+
+th, td, tr {
+    height: 15px;
+    width: 15px;
+}
+
+.row12,
+.row13a, .row13b, .row13c, .row13d, 
+.row14a, .row14b, .row14c, .row14d, .row14e, .row14f,
+.row15a,
+.row16a, .row16b, .row16c, .row16d,
+.row17a, .row17b, .row17c, .row17d, .row17e,
+.row18a, .row18b, .row18c, .row18d, .row18e,
+.row19a, .row19b, .row19c,
+.row20a, .row20b, .row20c,
+.row21a, .row21b, .row21c, .row21d, .row21e, .row21f, .row21g,
+.row22a, .row22b, .row22c, .row22d, .row22e, .row22f, .row22g, .row22h, .row22i,
+.row23a, .row23b, .row23c, .row23d, .row23e, .row23f, .row23g, .row23h,
+.row24a, .row24b, .row24c, .row24d, .row24e, .row24f, .row24g,
+.row25a, .row25b, .row25c, .row25d, .row25e, .row25f, .row25g,
+.row26a, .row26b, .row26c, .row26d, .row26e, .row26f, .row26g, .row26h,
+.row27a, .row27b, .row27c, .row27d, .row27e, .row27f, .row27g, .row27h,
+.row28a, .row28b, .row28c, .row28d, .row28e, .row28f, .row28g, .row28h,
+.row29a, .row29b, .row29c, .row29d, .row29e, .row29f, .row29g, .row29h,
+.row30a, .row30b, .row30c, .row30d, .row30e,
+.row31a, .row31b, .row31c, .row31d, .row31e, .row31f, .row31g, .row31h,
+.row32a, .row32b, .row32c, .row32d, .row32e, .row32f, .row32g, .row32h,
+.row33a, .row33b, .row33c, .row33d, .row33e, .row33f, .row33g, .row33h, .row33i, .row33j,
+.row34a, .row34b, .row34c, .row34d, .row34e, .row34f, .row34g, .row34h, .row34i,
+.row35a, .row35b, .row35c, .row35d, .row35e, .row35f, .row35g, .row35h, .row35i, .row35j,
+.row36a, .row36b, .row36c, .row36d, .row36e, .row36f, .row36g, .row36h, .row36i, .row36j,
+.row37a, .row37b, .row37c, .row37d, .row37e, .row37f, .row37g, .row37h, .row37i, .row37j, .row37k,
+.row38a, .row38b, .row38c, .row38d, .row38e,
+.row39a, .row39b,
+.CRZrow16a,
+.CRZrow17a, .CRZrow17b, .CRZrow17c,
+.CRZrow18a, .CRZrow18b, .CRZrow18c, .CRZrow18d,
+.CRZrow19a, .CRZrow19b, .CRZrow19c, .CRZrow19d, .CRZrow19e, .CRZrow19f, .CRZrow19g,
+.CRZrow20a, .CRZrow20b, .CRZrow20c, .CRZrow20d, .CRZrow20e, .CRZrow20f, .CRZrow20g, .CRZrow20h, .CRZrow20i,
+.CRZrow21a, .CRZrow21b, .CRZrow21c, .CRZrow21d, .CRZrow21e, .CRZrow21f, .CRZrow21g, .CRZrow21h, 
+.CRZrow22a, .CRZrow22b, .CRZrow22c, .CRZrow22d, .CRZrow22e, .CRZrow22f, .CRZrow22g, .CRZrow22h, .CRZrow22i, .CRZrow22j, .CRZrow22k,
+.CRZrow23a, .CRZrow23b, .CRZrow23c, .CRZrow23d, .CRZrow23e, .CRZrow23f, .CRZrow23g, .CRZrow23h, .CRZrow23i, .CRZrow23j, .CRZrow23k, .CRZrow23l,
+.CRZrow24a, .CRZrow24b, .CRZrow24c, .CRZrow24d, .CRZrow24e, .CRZrow24f, .CRZrow24g, .CRZrow24h, .CRZrow24i, 
+.CRZrow25a, .CRZrow25b, .CRZrow25c, .CRZrow25d, .CRZrow25e, .CRZrow25f, .CRZrow25g, .CRZrow25h, .CRZrow25i, .CRZrow25j, .CRZrow25k, .CRZrow25l,
+.CRZrow26a, .CRZrow26b, .CRZrow26c, .CRZrow26d, .CRZrow26e, .CRZrow26f, .CRZrow26g, .CRZrow26h,
+.CRZrow27a, .CRZrow27b, .CRZrow27c, .CRZrow27d, .CRZrow27e, .CRZrow27f, .CRZrow27g, .CRZrow27h, .CRZrow27i, .CRZrow27j,
+.CRZrow28a, .CRZrow28b, .CRZrow28c, .CRZrow28d, .CRZrow28e, .CRZrow28f, .CRZrow28g, .CRZrow28h, 
+.CRZrow29a, .CRZrow29b, .CRZrow29c, .CRZrow29d, .CRZrow29e, 
+.CRZrow30a, .CRZrow30b, .CRZrow30c, .CRZrow30d, 
+.CRZrow31a, .CRZrow31b, .CRZrow31c, 
+.CRZrow32a, .CRZrow32b, .CRZrow32c, .CRZrow32d, .CRZrow32e, .CRZrow32f, .CRZrow32g,
+.CRZrow33a, .CRZrow33b, .CRZrow33c, .CRZrow33d, .CRZrow33e, .CRZrow33f, .CRZrow33g,
+.CRZrow34a, .CRZrow34b, .CRZrow34c, .CRZrow34d, .CRZrow34e, .CRZrow34f, .CRZrow34g, .CRZrow34h,
+.CRZrow35a, .CRZrow35b, .CRZrow35c, .CRZrow35d {
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1, end);
+}
+
+.row12 {
+    animation-name: row12;
+}
+
+@keyframes row12 {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #701028; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #701028; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row13a {
+    animation-name: row13a;
+}
+
+@keyframes row13a {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #701028; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #701028; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row13b {
+    animation-name: row13b;
+}
+
+@keyframes row13b {
+    0%   { background-color: #701028; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #701028; }
+}
+
+.row13c {
+    animation-name: row13c;
+}
+
+@keyframes row13c {
+    0%   { background-color: #701028; }
+    25%  { background-color: #F06848; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #F06848; }
+    100% { background-color: #701028; }
+}
+
+.row13d {
+    animation-name: row13d;
+}
+
+@keyframes row13d {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row14a {
+    animation-name: row14a;
+}
+
+@keyframes row14a {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #701028; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #701028; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row14b {
+    animation-name: row14b;
+}
+
+@keyframes row14b {
+    0%   { background-color: #701028; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #701028; }
+}
+
+.row14c {
+    animation-name: row14c;
+}
+
+@keyframes row14c {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #F06848; }
+    50%  { background-color: #C03838; }
+    75%  { background-color: #F06848; }
+    100% { background-color: #C03838; }
+}
+
+.row14d {
+    animation-name: row14d;
+}
+
+@keyframes row14d {
+    0%   { background-color: #701028; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #701028; }
+}
+
+.row14e {
+    animation-name: row14e;
+}
+
+@keyframes row14e {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #0D0D0D; }
+}
+
+.row14f {
+    animation-name: row14f;
+}
+
+@keyframes row14f {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row15a {
+    animation-name: row15a;
+}
+
+@keyframes row15a {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #E8E8F8; }
+    50%  { background-color: #C03838; }
+    75%  { background-color: #E8E8F8; }
+    100% { background-color: #C03838; }
+}
+
+.row16a {
+    animation-name: row16a;
+}
+
+@keyframes row16a {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #384040; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #384040; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row16b {
+    animation-name: row16b;
+}
+
+@keyframes row16b {
+    0%   { background-color: #701028; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #B8B0D0; }
+    100% { background-color: #701028; }
+}
+
+.row16c {
+    animation-name: row16c;
+}
+
+@keyframes row16c {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #0D0D0D; }
+}
+
+.row16d {
+    animation-name: row16d;
+}
+
+@keyframes row16d {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #701028; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #701028; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row17a {
+    animation-name: row17a;
+}
+
+@keyframes row17a {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #384040; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #384040; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row17b {
+    animation-name: row17b;
+}
+
+@keyframes row17b {
+    0%   { background-color: #384040; }
+    25%  { background-color: #406888; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #406888; }
+    100% { background-color: #384040; }
+}
+
+.row17c {
+    animation-name: row17c;
+}
+
+@keyframes row17c {
+    0%   { background-color: #B8B0D0; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #B8B0D0; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #B8B0D0; }
+}
+
+.row17d {
+    animation-name: row17d;
+}
+
+@keyframes row17d {
+    0%   { background-color: #F06848; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #F06848; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #F06848; }
+}
+
+.row17e {
+    animation-name: row17e;
+}
+
+@keyframes row17e {
+    0%   { background-color: #701028; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #701028; }
+}
+
+.row18a {
+    animation-name: row18a;
+}
+
+@keyframes row18a {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row18b {
+    animation-name: row18b;
+}
+
+@keyframes row18b {
+    0%   { background-color: #384040; }
+    25%  { background-color: #E8E8F8; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #E8E8F8; }
+    100% { background-color: #384040; }
+}
+
+.row18c {
+    animation-name: row18c;
+}
+
+@keyframes row18c {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #B8B0D0; }
+    50%  { background-color: #C03838; }
+    75%  { background-color: #B8B0D0; }
+    100% { background-color: #C03838; }
+}
+
+.row18d {
+    animation-name: row18d;
+}
+
+@keyframes row18d {
+    0%   { background-color: #E8E8F8; }
+    25%  { background-color: #B8B0D0; }
+    50%  { background-color: #E8E8F8; }
+    75%  { background-color: #B8B0D0; }
+    100% { background-color: #E8E8F8; }
+}
+
+.row18e {
+    animation-name: row18e;
+}
+
+@keyframes row18e {
+    0%   { background-color: #F06848; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #F06848; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #F06848; }
+}
+
+.row19a {
+    animation-name: row19a;
+}
+
+@keyframes row19a {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row19b {
+    animation-name: row19b;
+}
+
+@keyframes row19b {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: #E8E8F8; }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: #E8E8F8; }
+    100% { background-color: #0D0D0D; }
+}
+
+.row19c {
+    animation-name: row19c;
+}
+
+@keyframes row19c {
+    0%   { background-color: #B8B0D0; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #B8B0D0; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #B8B0D0; }
+}
+
+.row20a {
+    animation-name: row20a;
+}
+
+@keyframes row20a {
+    0%   { background-color: #406888; }
+    25%  { background-color: #E8E8F8; }
+    50%  { background-color: #406888; }
+    75%  { background-color: #E8E8F8; }
+    100% { background-color: #406888; }
+}
+
+.row20b {
+    animation-name: row20b;
+}
+
+@keyframes row20b {
+    0%   { background-color: #B8B0D0; }
+    25%  { background-color: #701028; }
+    50%  { background-color: #B8B0D0; }
+    75%  { background-color: #701028; }
+    100% { background-color: #B8B0D0; }
+}
+
+.row20c {
+    animation-name: row20c;
+}
+
+@keyframes row20c {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #701028; }
+    50%  { background-color: #C03838; }
+    75%  { background-color: #701028; }
+    100% { background-color: #C03838; }
+}
+
+.row21a {
+    animation-name: row21a;
+}
+
+@keyframes row21a {
+    0%   { background-color: #E8E8F8; }
+    25%  { background-color: #B8B0D0; }
+    50%  { background-color: #E8E8F8; }
+    75%  { background-color: #B8B0D0; }
+    100% { background-color: #E8E8F8; }
+}
+
+.row21b {
+    animation-name: row21b;
+}
+
+@keyframes row21b {
+    0%   { background-color: #701028; }
+    25%  { background-color: #B8B0D0; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #B8B0D0; }
+    100% { background-color: #701028; }
+}
+
+.row21c {
+    animation-name: row21c;
+}
+
+@keyframes row21c {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #701028; }
+    50%  { background-color: #C03838; }
+    75%  { background-color: #701028; }
+    100% { background-color: #C03838; }
+}
+
+.row21d {
+    animation-name: row21d;
+}
+
+@keyframes row21d {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #701028; }
+    50%  { background-color: #C03838; }
+    75%  { background-color: #701028; }
+    100% { background-color: #C03838; }
+}
+
+.row21e {
+    animation-name: row21e;
+}
+
+@keyframes row21e {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #C03838; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #C03838; }
+}
+
+.row21f {
+    animation-name: row21f;
+}
+
+@keyframes row21f {
+    0%   { background-color: #701028; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #701028; }
+}
+
+.row21g {
+    animation-name: row21g;
+}
+
+@keyframes row21g {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #0D0D0D; }
+}
+
+.row22a {
+    animation-name: row22a;
+}
+
+@keyframes row22a {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #0D0D0D; }
+}
+
+.row22b {
+    animation-name: row22b;
+}
+
+@keyframes row22b {
+    0%   { background-color: #E8E8F8; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #E8E8F8; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #E8E8F8; }
+}
+
+.row22c {
+    animation-name: row22c;
+}
+
+@keyframes row22c {
+    0%   { background-color: #E8E8F8; }
+    25%  { background-color: #B8B0D0; }
+    50%  { background-color: #E8E8F8; }
+    75%  { background-color: #B8B0D0; }
+    100% { background-color: #E8E8F8; }
+}
+
+.row22d {
+    animation-name: row22d;
+}
+
+@keyframes row22d {
+    0%   { background-color: #701028; }
+    25%  { background-color: #B8B0D0; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #B8B0D0; }
+    100% { background-color: #701028; }
+}
+
+.row22e {
+    animation-name: row22e;
+}
+
+@keyframes row22e {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #701028; }
+    50%  { background-color: #C03838; }
+    75%  { background-color: #701028; }
+    100% { background-color: #C03838; }
+}
+
+.row22f {
+    animation-name: row22f;
+}
+
+@keyframes row22f {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #C03838; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #C03838; }
+}
+
+.row22g {
+    animation-name: row22g;
+}
+
+@keyframes row22g {
+    0%   { background-color: #701028; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #701028; }
+}
+
+.row22h {
+    animation-name: row22h;
+}
+
+@keyframes row22h {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: #384040; }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: #384040; }
+    100% { background-color: #0D0D0D; }
+}
+
+.row22i {
+    animation-name: row22i;
+}
+
+@keyframes row22i {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row23a {
+    animation-name: row23a;
+}
+
+@keyframes row23a {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #0D0D0D; }
+}
+
+.row23b {
+    animation-name: row23b;
+}
+
+@keyframes row23b {
+    0%   { background-color: #B8B0D0; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #B8B0D0; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #B8B0D0; }
+}
+
+.row23c {
+    animation-name: row23c;
+}
+
+@keyframes row23c {
+    0%   { background-color: #B8B0D0; }
+    25%  { background-color: #784040; }
+    50%  { background-color: #B8B0D0; }
+    75%  { background-color: #784040; }
+    100% { background-color: #B8B0D0; }
+}
+
+.row23d {
+    animation-name: row23d;
+}
+
+@keyframes row23d {
+    0%   { background-color: #701028; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #000000; }
+    100% { background-color: #701028; }
+}
+
+.row23e {
+    animation-name: row23e;
+}
+
+@keyframes row23e {
+    0%   { background-color: #701028; }
+    25%  { background-color: #E8E8F8; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #E8E8F8; }
+    100% { background-color: #701028; }
+}
+
+.row23f {
+    animation-name: row23f;
+}
+
+@keyframes row23f {
+    0%   { background-color: #000000; }
+    25%  { background-color: #D8A078; }
+    50%  { background-color: #000000; }
+    75%  { background-color: #D8A078; }
+    100% { background-color: #000000; }
+}
+
+.row23g {
+    animation-name: row23g;
+}
+
+@keyframes row23g {
+    0%   { background-color: #000000; }
+    25%  { background-color: #384040; }
+    50%  { background-color: #000000; }
+    75%  { background-color: #384040; }
+    100% { background-color: #000000; }
+}
+
+.row23h {
+    animation-name: row23h;
+}
+
+@keyframes row23h {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #000000; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #000000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row24a {
+    animation-name: row24a;
+}
+
+@keyframes row24a {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row24b {
+    animation-name: row24b;
+}
+
+@keyframes row24b {
+    0%   { background-color: #000000; }
+    25%  { background-color: #784040; }
+    50%  { background-color: #000000; }
+    75%  { background-color: #784040; }
+    100% { background-color: #000000; }
+}
+
+.row24c {
+    animation-name: row24c;
+}
+
+@keyframes row24c {
+    0%   { background-color: #784040; }
+    25%  { background-color: #F8D0B8; }
+    50%  { background-color: #784040; }
+    75%  { background-color: #F8D0B8; }
+    100% { background-color: #784040; }
+}
+
+.row24d {
+    animation-name: row24d;
+}
+
+@keyframes row24d {
+    0%   { background-color: #384040; }
+    25%  { background-color: #D8A078; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #D8A078; }
+    100% { background-color: #384040; }
+}
+
+.row24e {
+    animation-name: row24e;
+}
+
+@keyframes row24e {
+    0%   { background-color: #384040; }
+    25%  { background-color: #885028; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #885028; }
+    100% { background-color: #384040; }
+}
+
+.row24f {
+    animation-name: row24f;
+}
+
+@keyframes row24f {
+    0%   { background-color: #384040; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #384040; }
+}
+
+.row25a {
+    animation-name: row25a;
+}
+
+@keyframes row25a {
+    0%   { background-color: #784040; }
+    25%  { background-color: #D8A078; }
+    50%  { background-color: #784040; }
+    75%  { background-color: #D8A078; }
+    100% { background-color: #784040; }
+}
+
+.row25b {
+    animation-name: row25b;
+}
+
+@keyframes row25b {
+    0%   { background-color: #000000; }
+    25%  { background-color: #F8D0B8; }
+    50%  { background-color: #000000; }
+    75%  { background-color: #F8D0B8; }
+    100% { background-color: #000000; }
+}
+
+.row25c {
+    animation-name: row25c;
+}
+
+@keyframes row25c {
+    0%   { background-color: #E8E8F8; }
+    25%  { background-color: #F8D0B8; }
+    50%  { background-color: #E8E8F8; }
+    75%  { background-color: #F8D0B8; }
+    100% { background-color: #E8E8F8; }
+}
+
+.row25d {
+    animation-name: row25d;
+}
+
+@keyframes row25d {
+    0%   { background-color: #D8A078; }
+    25%  { background-color: #F8D0B8; }
+    50%  { background-color: #D8A078; }
+    75%  { background-color: #F8D0B8; }
+    100% { background-color: #D8A078; }
+}
+
+.row25e {
+    animation-name: row25e;
+}
+
+@keyframes row25e {
+    0%   { background-color: #384040; }
+    25%  { background-color: #D8A078; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #D8A078; }
+    100% { background-color: #384040; }
+}
+
+.row25f {
+    animation-name: row25f;
+}
+
+@keyframes row25f {
+    0%   { background-color: #384040; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #384040; }
+}
+
+.row25g {
+    animation-name: row25g;
+}
+
+@keyframes row25g {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #0D0D0D; }
+}
+
+.row26a {
+    animation-name: row26a;
+}
+
+@keyframes row26a {
+    0%   { background-color: #D8A078; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #D8A078; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #D8A078; }
+}
+
+.row26b {
+    animation-name: row26b;
+}
+
+@keyframes row26b {
+    0%   { background-color: #F8D0B8; }
+    25%  { background-color: #784040; }
+    50%  { background-color: #F8D0B8; }
+    75%  { background-color: #784040; }
+    100% { background-color: #F8D0B8; }
+}
+
+.row26c {
+    animation-name: row26c;
+}
+
+@keyframes row26c {
+    0%   { background-color: #F8D0B8; }
+    25%  { background-color: #D8A078; }
+    50%  { background-color: #F8D0B8; }
+    75%  { background-color: #D8A078; }
+    100% { background-color: #F8D0B8; }
+}
+
+.row26d {
+    animation-name: row26d;
+}
+
+@keyframes row26d {
+    0%   { background-color: #D8A078; }
+    25%  { background-color: #784040; }
+    50%  { background-color: #D8A078; }
+    75%  { background-color: #784040; }
+    100% { background-color: #D8A078; }
+}
+
+.row26e {
+    animation-name: row26e;
+}
+
+@keyframes row26e {
+    0%   { background-color: #D8A078; }
+    25%  { background-color: #384040; }
+    50%  { background-color: #D8A078; }
+    75%  { background-color: #384040; }
+    100% { background-color: #D8A078; }
+}
+
+.row26f {
+    animation-name: row26f;
+}
+
+@keyframes row26f {
+    0%   { background-color: #885028; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #885028; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #885028; }
+}
+
+.row26g {
+    animation-name: row26g;
+}
+
+@keyframes row26g {
+    0%   { background-color: #384040; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #384040; }
+}
+
+.row26h {
+    animation-name: row26h;
+}
+
+@keyframes row26h {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #0D0D0D; }
+}
+
+.row27a {
+    animation-name: row27a;
+}
+
+@keyframes row27a {
+    0%   { background-color: #784040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #784040; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #784040; }
+}
+
+.row27b {
+    animation-name: row27b;
+}
+
+@keyframes row27b {
+    0%   { background-color: #D8A078; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #D8A078; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #D8A078; }
+}
+
+.row27c {
+    animation-name: row27c;
+}
+
+@keyframes row27c {
+    0%   { background-color: #F8D0B8; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #F8D0B8; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #F8D0B8; }
+}
+
+.row27d {
+    animation-name: row27d;
+}
+
+@keyframes row27d {
+    0%   { background-color: #D8A078; }
+    25%  { background-color: #784040; }
+    50%  { background-color: #D8A078; }
+    75%  { background-color: #784040; }
+    100% { background-color: #D8A078; }
+}
+
+.row27e {
+    animation-name: row27e;
+}
+
+@keyframes row27e {
+    0%   { background-color: #784040; }
+    25%  { background-color: #384040; }
+    50%  { background-color: #784040; }
+    75%  { background-color: #384040; }
+    100% { background-color: #784040; }
+}
+
+.row27f {
+    animation-name: row27f;
+}
+
+@keyframes row27f {
+    0%   { background-color: #384040; }
+    25%  { background-color: #503018; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #503018; }
+    100% { background-color: #384040; }
+}
+
+.row27g {
+    animation-name: row27g;
+}
+
+@keyframes row27g {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: #503018; }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: #503018; }
+    100% { background-color: #0D0D0D; }
+}
+
+.row27h {
+    animation-name: row27h;
+}
+
+@keyframes row27h {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #0D0D0D; }
+}
+
+.row28a {
+    animation-name: row28a;
+}
+
+@keyframes row28a {
+    0%   { background-color: #0D0D0D; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #0D0D0D; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #0D0D0D; }
+}
+
+.row28b {
+    animation-name: row28b;
+}
+
+@keyframes row28b {
+    0%   { background-color: #784040; }
+    25%  { background-color: #406888; }
+    50%  { background-color: #784040; }
+    75%  { background-color: #406888; }
+    100% { background-color: #784040; }
+}
+
+.row28c {
+    animation-name: row28c;
+}
+
+@keyframes row28c {
+    0%   { background-color: #D8A078; }
+    25%  { background-color: #E8E8F8; }
+    50%  { background-color: #D8A078; }
+    75%  { background-color: #E8E8F8; }
+    100% { background-color: #D8A078; }
+}
+
+.row28d {
+    animation-name: row28d;
+}
+
+@keyframes row28d {
+    0%   { background-color: #784040; }
+    25%  { background-color: #C89800; }
+    50%  { background-color: #784040; }
+    75%  { background-color: #C89800; }
+    100% { background-color: #784040; }
+}
+
+.row28e {
+    animation-name: row28e;
+}
+
+@keyframes row28e {
+    0%   { background-color: #384040; }
+    25%  { background-color: #C89800; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #C89800; }
+    100% { background-color: #384040; }
+}
+
+.row28f {
+    animation-name: row28f;
+}
+
+@keyframes row28f {
+    0%   { background-color: #503018; }
+    25%  { background-color: #885028; }
+    50%  { background-color: #503018; }
+    75%  { background-color: #885028; }
+    100% { background-color: #503018; }
+}
+
+.row28g {
+    animation-name: row28g;
+}
+
+@keyframes row28g {
+    0%   { background-color: #503018; }
+    25%  { background-color: #C89800; }
+    50%  { background-color: #503018; }
+    75%  { background-color: #C89800; }
+    100% { background-color: #503018; }
+}
+
+.row28h {
+    animation-name: row28h;
+}
+
+@keyframes row28h {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #503018; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #503018; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row29a {
+    animation-name: row29a;
+}
+
+@keyframes row29a {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #384040; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #384040; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row29b {
+    animation-name: row29b;
+}
+
+@keyframes row29b {
+    0%   { background-color: #406888; }
+    25%  { background-color: #E8E8F8; }
+    50%  { background-color: #406888; }
+    75%  { background-color: #E8E8F8; }
+    100% { background-color: #406888; }
+}
+
+.row29c {
+    animation-name: row29c;
+}
+
+@keyframes row29c {
+    0%   { background-color: #E8E8F8; }
+    25%  { background-color: #C89800; }
+    50%  { background-color: #E8E8F8; }
+    75%  { background-color: #C89800; }
+    100% { background-color: #E8E8F8; }
+}
+
+.row29d {
+    animation-name: row29d;
+}
+
+@keyframes row29d {
+    0%   { background-color: #C89800; }
+    25%  { background-color: #384040; }
+    50%  { background-color: #C89800; }
+    75%  { background-color: #384040; }
+    100% { background-color: #C89800; }
+}
+
+.row29e {
+    animation-name: row29e;
+}
+
+@keyframes row29e {
+    0%   { background-color: #885028; }
+    25%  { background-color: #0D0D0D; }
+    50%  { background-color: #885028; }
+    75%  { background-color: #0D0D0D; }
+    100% { background-color: #885028; }
+}
+
+.row29f {
+    animation-name: row29f;
+}
+
+@keyframes row29f {
+    0%   { background-color: #503018; }
+    25%  { background-color: #885028; }
+    50%  { background-color: #503018; }
+    75%  { background-color: #885028; }
+    100% { background-color: #503018; }
+}
+
+.row29g {
+    animation-name: row29g;
+}
+
+@keyframes row29g {
+    0%   { background-color: #503018; }
+    25%  { background-color: #C89800; }
+    50%  { background-color: #503018; }
+    75%  { background-color: #C89800; }
+    100% { background-color: #503018; }
+}
+
+.row29h {
+    animation-name: row29h;
+}
+
+@keyframes row29h {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #503018; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #503018; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row30a {
+    animation-name: row30a;
+}
+
+@keyframes row30a {
+    0%   { background-color: #E8E8F8; }
+    25%  { background-color: #B8B0D0; }
+    50%  { background-color: #E8E8F8; }
+    75%  { background-color: #B8B0D0; }
+    100% { background-color: #E8E8F8; }
+}
+
+.row30b {
+    animation-name: row30b;
+}
+
+@keyframes row30b {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #C89800; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #C03838; }
+}
+
+.row30c {
+    animation-name: row30c;
+}
+
+@keyframes row30c {
+    0%   { background-color: #C89800; }
+    25%  { background-color: #384040; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #384040; }
+    100% { background-color: #C89800; }
+}
+
+.row30d {
+    animation-name: row30d;
+}
+
+@keyframes row30d {
+    0%   { background-color: #384040; }
+    25%  { background-color: #701028; }
+    50%  { background-color: #000000; }
+    75%  { background-color: #701028; }
+    100% { background-color: #384040; }
+}
+
+.row30e {
+    animation-name: row30e;
+}
+
+@keyframes row30e {
+    0%   { background-color: #701028; }
+    25%  { background-color: #C89800; }
+    50%  { background-color: #C89800; }
+    75%  { background-color: #C89800; }
+    100% { background-color: #701028; }
+}
+
+.row31a {
+    animation-name: row31a;
+}
+
+@keyframes row31a {
+    0%   { background-color: #B8B0D0; }
+    25%  { background-color: #B8B0D0; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #B8B0D0; }
+    100% { background-color: #B8B0D0; }
+}
+
+.row31b {
+    animation-name: row31b;
+}
+
+@keyframes row31b {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #D8A078; }
+    75%  { background-color: #000000; }
+    100% { background-color: #C03838; }
+}
+
+.row31c {
+    animation-name: row31c;
+}
+
+@keyframes row31c {
+    0%   { background-color: #384040; }
+    25%  { background-color: #D8A078; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #D8A078; }
+    100% { background-color: #384040; }
+}
+
+.row31d {
+    animation-name: row31d;
+}
+
+@keyframes row31d {
+    0%   { background-color: #384040; }
+    25%  { background-color: #701028; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #701028; }
+    100% { background-color: #384040; }
+}
+
+.row31e {
+    animation-name: row31e;
+}
+
+@keyframes row31e {
+    0%   { background-color: #D8A078; }
+    25%  { background-color: #885028; }
+    50%  { background-color: #C89800; }
+    75%  { background-color: #885028; }
+    100% { background-color: #D8A078; }
+}
+
+.row31f {
+    animation-name: row31f;
+}
+
+@keyframes row31f {
+    0%   { background-color: #701028; }
+    25%  { background-color: #885028; }
+    50%  { background-color: #885028; }
+    75%  { background-color: #885028; }
+    100% { background-color: #701028; }
+}
+
+.row31g {
+    animation-name: row31g;
+}
+
+@keyframes row31g {
+    0%   { background-color: #C89800; }
+    25%  { background-color: #885028; }
+    50%  { background-color: #C89800; }
+    75%  { background-color: #885028; }
+    100% { background-color: #C89800; }
+}
+
+.row31h {
+    animation-name: row31h;
+}
+
+@keyframes row31h {
+    0%   { background-color: #503018; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #503018; }
+    75%  { background-color: #000000; }
+    100% { background-color: #503018; }
+}
+
+.row32a {
+    animation-name: row32a;
+}
+
+@keyframes row32a {
+    0%   { background-color: #384040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #384040; }
+}
+
+.row32b {
+    animation-name: row32b;
+}
+
+@keyframes row32b {
+    0%   { background-color: #B8B0D0; }
+    25%  { background-color: #384040; }
+    50%  { background-color: #F8D0B8; }
+    75%  { background-color: #384040; }
+    100% { background-color: #B8B0D0; }
+}
+
+.row32c {
+    animation-name: row32c;
+}
+
+@keyframes row32c {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #D8A078; }
+    75%  { background-color: #000000; }
+    100% { background-color: #C03838; }
+}
+
+.row32d {
+    animation-name: row32d;
+}
+
+@keyframes row32d {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #F8D0B8; }
+    50%  { background-color: #D8A078; }
+    75%  { background-color: #F8D0B8; }
+    100% { background-color: #C03838; }
+}
+
+.row32e {
+    animation-name: row32e;
+}
+
+@keyframes row32e {
+    0%   { background-color: #000000; }
+    25%  { background-color: #D8A078; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #D8A078; }
+    100% { background-color: #000000; }
+}
+
+.row32f {
+    animation-name: row32f;
+}
+
+@keyframes row32f {
+    0%   { background-color: #F8D0B8; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #000000; }
+    100% { background-color: #F8D0B8; }
+}
+
+.row32g {
+    animation-name: row32g;
+}
+
+@keyframes row32g {
+    0%   { background-color: #D8A078; }
+    25%  { background-color: #885028; }
+    50%  { background-color: #885028; }
+    75%  { background-color: #885028; }
+    100% { background-color: #D8A078; }
+}
+
+.row32h {
+    animation-name: row32h;
+}
+
+@keyframes row32h {
+    0%   { background-color: #000000; }
+    25%  { background-color: #885028; }
+    50%  { background-color: #885028; }
+    75%  { background-color: #885028; }
+    100% { background-color: #000000; }
+}
+
+.row33a {
+    animation-name: row33a;
+}
+
+@keyframes row33a {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row33b {
+    animation-name: row33b;
+}
+
+@keyframes row33b {
+    0%   { background-color: #384040; }
+    25%  { background-color: #384040; }
+    50%  { background-color: #F8D0B8; }
+    75%  { background-color: #384040; }
+    100% { background-color: #384040; }
+}
+
+.row33c {
+    animation-name: row33c;
+}
+
+@keyframes row33c {
+    0%   { background-color: #701028; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #F8D0B8; }
+    75%  { background-color: #000000; }
+    100% { background-color: #701028; }
+}
+
+.row33d {
+    animation-name: row33d;
+}
+
+@keyframes row33d {
+    0%   { background-color: #C03838; }
+    25%  { background-color: #F8D0B8; }
+    50%  { background-color: #000000; }
+    75%  { background-color: #F8D0B8; }
+    100% { background-color: #C03838; }
+}
+
+.row33e {
+    animation-name: row33e;
+}
+
+@keyframes row33e {
+    0%   { background-color: #000000; }
+    25%  { background-color: #F8D0B8; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #F8D0B8; }
+    100% { background-color: #000000; }
+}
+
+.row33f {
+    animation-name: row33f;
+}
+
+@keyframes row33f {
+    0%   { background-color: #F8D0B8; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #701028; }
+    75%  { background-color: #000000; }
+    100% { background-color: #F8D0B8; }
+}
+
+.row33g {
+    animation-name: row33g;
+}
+
+@keyframes row33g {
+    0%   { background-color: #F8D0B8; }
+    25%  { background-color: #406888; }
+    50%  { background-color: #885028; }
+    75%  { background-color: #406888; }
+    100% { background-color: #F8D0B8; }
+}
+
+.row33h {
+    animation-name: row33h;
+}
+
+@keyframes row33h {
+    0%   { background-color: #000000; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #885028; }
+    75%  { background-color: #000000; }
+    100% { background-color: #000000; }
+}
+
+.row33i {
+    animation-name: row33i;
+}
+
+@keyframes row33i {
+    0%   { background-color: #885028; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #885028; }
+    75%  { background-color: #000000; }
+    100% { background-color: #885028; }
+}
+
+.row33j {
+    animation-name: row33j;
+}
+
+@keyframes row33j {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row34a {
+    animation-name: row34a;
+}
+
+@keyframes row34a {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #384040; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row34b {
+    animation-name: row34b;
+}
+
+@keyframes row34b {
+    0%   { background-color: #384040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #384040; }
+}
+
+.row34c {
+    animation-name: row34c;
+}
+
+@keyframes row34c {
+    0%   { background-color: #384040; }
+    25%  { background-color: #384040; }
+    50%  { background-color: #000000; }
+    75%  { background-color: #384040; }
+    100% { background-color: #384040; }
+}
+
+.row34d {
+    animation-name: row34d;
+}
+
+@keyframes row34d {
+    0%   { background-color: #701028; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #000000; }
+    100% { background-color: #701028; }
+}
+
+.row34e {
+    animation-name: row34e;
+}
+
+@keyframes row34e {
+    0%   { background-color: #701028; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #000000; }
+    100% { background-color: #701028; }
+}
+
+.row34f {
+    animation-name: row34f;
+}
+
+@keyframes row34f {
+    0%   { background-color: #000000; }
+    25%  { background-color: #406888; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #406888; }
+    100% { background-color: #000000; }
+}
+
+.row34g {
+    animation-name: row34g;
+}
+
+@keyframes row34g {
+    0%   { background-color: #000000; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #000000; }
+    100% { background-color: #000000; }
+}
+
+.row34h {
+    animation-name: row34h;
+}
+
+@keyframes row34h {
+    0%   { background-color: #885028; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #885028; }
+}
+
+.row34i {
+    animation-name: row34i;
+}
+
+@keyframes row34i {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row35a {
+    animation-name: row35a;
+}
+
+@keyframes row35a {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row35b {
+    animation-name: row35b;
+}
+
+@keyframes row35b {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row35c {
+    animation-name: row35c;
+}
+
+@keyframes row35c {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #384040; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row35d {
+    animation-name: row35d;
+}
+
+@keyframes row35d {
+    0%   { background-color: #406888; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #000000; }
+    100% { background-color: #406888; }
+}
+
+.row35e {
+    animation-name: row35e;
+}
+
+@keyframes row35e {
+    0%   { background-color: #406888; }
+    25%  { background-color: #406888; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #406888; }
+    100% { background-color: #406888; }
+}
+
+.row35f {
+    animation-name: row35f;
+}
+
+@keyframes row35f {
+    0%   { background-color: #384040; }
+    25%  { background-color: #406888; }
+    50%  { background-color: #406888; }
+    75%  { background-color: #406888; }
+    100% { background-color: #384040; }
+}
+
+.row35g {
+    animation-name: row35g;
+}
+
+@keyframes row35g {
+    0%   { background-color: #384040; }
+    25%  { background-color: #384040; }
+    50%  { background-color: #406888; }
+    75%  { background-color: #384040; }
+    100% { background-color: #384040; }
+}
+
+.row35h {
+    animation-name: row35h;
+}
+
+@keyframes row35h {
+    0%   { background-color: #384040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #384040; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #384040; }
+}
+
+.row35i {
+    animation-name: row35i;
+}
+
+@keyframes row35i {
+    0%   { background-color: #384040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #384040; }
+}
+
+.row35j {
+    animation-name: row35j;
+}
+
+@keyframes row35j {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row36a {
+    animation-name: row36a;
+}
+
+@keyframes row36a {
+    0%   { background-color: #384040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #384040; }
+}
+
+.row36b {
+    animation-name: row36b;
+}
+
+@keyframes row36b {
+    0%   { background-color: #384040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #384040; }
+}
+
+.row36c {
+    animation-name: row36c;
+}
+
+@keyframes row36c {
+    0%   { background-color: #384040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #384040; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #384040; }
+}
+
+.row36d {
+    animation-name: row36d;
+}
+
+@keyframes row36d {
+    0%   { background-color: #406888; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #000000; }
+    100% { background-color: #406888; }
+}
+
+.row36e {
+    animation-name: row36e;
+}
+
+@keyframes row36e {
+    0%   { background-color: #406888; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #406888; }
+}
+
+.row36f {
+    animation-name: row36f;
+}
+
+@keyframes row36f {
+    0%   { background-color: #384040; }
+    25%  { background-color: #C03838; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #C03838; }
+    100% { background-color: #384040; }
+}
+
+.row36g {
+    animation-name: row36g;
+}
+
+@keyframes row36g {
+    0%   { background-color: #384040; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #000000; }
+    100% { background-color: #384040; }
+}
+
+
+.row36h {
+    animation-name: row36h;
+}
+
+@keyframes row36h {
+    0%   { background-color: #384040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #406888; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #384040; }
+}
+
+.row36i {
+    animation-name: row36i;
+}
+
+@keyframes row36i {
+    0%   { background-color: #384040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #384040; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #384040; }
+}
+
+.row36j {
+    animation-name: row36j;
+}
+
+@keyframes row36j {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row37a {
+    animation-name: row37a;
+}
+
+@keyframes row37a {
+    0%   { background-color: #384040; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #384040; }
+}
+
+.row37b {
+    animation-name: row37b;
+}
+
+@keyframes row37b {
+    0%   { background-color: #C03838; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #C03838; }
+}
+
+.row37c {
+    animation-name: row37c;
+}
+
+@keyframes row37c {
+    0%   { background-color: #C03838; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #C03838; }
+}
+
+.row37d {
+    animation-name: row37d;
+}
+
+@keyframes row37d {
+    0%   { background-color: #406888; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #406888; }
+}
+
+.row37e {
+    animation-name: row37e;
+}
+
+@keyframes row37e {
+    0%   { background-color: #384040; }
+    25%  { background-color: #000000; }
+    50%  { background-color: #000000; }
+    75%  { background-color: #000000; }
+    100% { background-color: #384040; }
+}
+
+.row37f {
+    animation-name: row37f;
+}
+
+@keyframes row37f {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #000000; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #000000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row37g {
+    animation-name: row37g;
+}
+
+@keyframes row37g {
+    0%   { background-color: #384040; }
+    25%  { background-color: #000000; }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: #000000; }
+    100% { background-color: #384040; }
+}
+
+.row37h {
+    animation-name: row37h;
+}
+
+@keyframes row37h {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: #000000; }
+    50%  { background-color: #384040; }
+    75%  { background-color: #000000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row37i {
+    animation-name: row37i;
+}
+
+@keyframes row37i {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row37j {
+    animation-name: row37j;
+}
+
+@keyframes row37j {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #406888; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row37k {
+    animation-name: row37k;
+}
+
+@keyframes row37k {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #384040; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row38a {
+    animation-name: row38a;
+}
+
+@keyframes row38a {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row38b {
+    animation-name: row38b;
+}
+
+@keyframes row38b {
+    0%   { background-color: #C03838; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #C03838; }
+}
+
+.row38c {
+    animation-name: row38c;
+}
+
+@keyframes row38c {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row38d {
+    animation-name: row38d;
+}
+
+@keyframes row38d {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row38e {
+    animation-name: row38e;
+}
+
+@keyframes row38e {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #C03838; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.row39a {
+    animation-name: row39a;
+}
+
+@keyframes row39a {
+    0%   { background-color: #000000; }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: rgb(158, 218, 158); }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.row39b {
+    animation-name: row39b;
+}
+
+@keyframes row39b {
+    0%   { background-color: rgb(158, 218, 158); }
+    25%  { background-color: rgb(158, 218, 158); }
+    50%  { background-color: #000000; }
+    75%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow16a {
+    animation-name: CRZrow16a;
+}
+
+@keyframes CRZrow16a {
+    50%  { background-color: #603000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow17a {
+    animation-name: CRZrow17a;
+}
+
+@keyframes CRZrow17a {
+    50%  { background-color: #904020; }
+    100% { background-color: #603000; }
+}
+
+.CRZrow17b {
+    animation-name: CRZrow17b;
+}
+
+@keyframes CRZrow17b {
+    50%  { background-color: #603000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow17c {
+    animation-name: CRZrow17c;
+}
+
+@keyframes CRZrow17c {
+    50%  { background-color: #C01020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow18a {
+    animation-name: CRZrow18a;
+}
+
+@keyframes CRZrow18a {
+    50%  { background-color: #904020; }
+    100% { background-color: #603000; }
+}
+
+.CRZrow18b {
+    animation-name: CRZrow18b;
+}
+
+@keyframes CRZrow18b {
+    50%  { background-color: #904020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow18c {
+    animation-name: CRZrow18c;
+}
+
+@keyframes CRZrow18c {
+    50%  { background-color: #603000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow18d {
+    animation-name: CRZrow18d;
+}
+
+@keyframes CRZrow18d {
+    50%  { background-color: #C01020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow19a {
+    animation-name: CRZrow19a;
+}
+
+@keyframes CRZrow19a {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #603000; }
+}
+
+.CRZrow19b {
+    animation-name: CRZrow19b;
+}
+
+@keyframes CRZrow19b {
+    50%  { background-color: #603000; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow19c {
+    animation-name: CRZrow19c;
+}
+
+@keyframes CRZrow19c {
+    50%  { background-color: #000000; }
+    100% { background-color: #904020; }
+}
+
+.CRZrow19d {
+    animation-name: CRZrow19d;
+}
+
+@keyframes CRZrow19d {
+    50%  { background-color: #904020; }
+    100% { background-color: #603000; }
+}
+
+.CRZrow19e {
+    animation-name: CRZrow19e;
+}
+
+@keyframes CRZrow19e {
+    50%  { background-color: #904020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow19f {
+    animation-name: CRZrow19f;
+}
+
+@keyframes CRZrow19f {
+    50%  { background-color: #603000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow19g {
+    animation-name: CRZrow19g;
+}
+
+@keyframes CRZrow19g {
+    50%  { background-color: #C01020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow20a {
+    animation-name: CRZrow20a;
+}
+
+@keyframes CRZrow20a {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.CRZrow20b {
+    animation-name: CRZrow20b;
+}
+
+@keyframes CRZrow20b {
+    50%  { background-color: #000000; }
+    100% { background-color: #F87838; }
+}
+
+.CRZrow20c {
+    animation-name: CRZrow20c;
+}
+
+@keyframes CRZrow20c {
+    50%  { background-color: #F87838; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow20d {
+    animation-name: CRZrow20d;
+}
+
+@keyframes CRZrow20d {
+    50%  { background-color: #000000; }
+    100% { background-color: #603000; }
+}
+
+.CRZrow20e {
+    animation-name: CRZrow20e;
+}
+
+@keyframes CRZrow20e {
+    50%  { background-color: #000000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow20f {
+    animation-name: CRZrow20f;
+}
+
+@keyframes CRZrow20f {
+    50%  { background-color: #904020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow20g {
+    animation-name: CRZrow20g;
+}
+
+@keyframes CRZrow20g {
+    50%  { background-color: #603000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow20h {
+    animation-name: CRZrow20h;
+}
+
+@keyframes CRZrow20h {
+    50%  { background-color: #C01020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow20i {
+    animation-name: CRZrow20i;
+}
+
+@keyframes CRZrow20i {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow21a {
+    animation-name: CRZrow21a;
+}
+
+@keyframes CRZrow21a {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #603000; }
+}
+
+.CRZrow21b {
+    animation-name: CRZrow21b;
+}
+
+@keyframes CRZrow21b {
+    50%  { background-color: #603000; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow21c {
+    animation-name: CRZrow21c;
+}
+
+@keyframes CRZrow21c {
+    50%  { background-color: #C85828; }
+    100% { background-color: #F87838; }
+}
+
+.CRZrow21d {
+    animation-name: CRZrow21d;
+}
+
+@keyframes CRZrow21d {
+    50%  { background-color: #F87838; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow21e {
+    animation-name: CRZrow21e;
+}
+
+@keyframes CRZrow21e {
+    50%  { background-color: #F87838; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow21f {
+    animation-name: CRZrow21f;
+}
+
+@keyframes CRZrow21f {
+    50%  { background-color: #000000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow21g {
+    animation-name: CRZrow21g;
+}
+
+@keyframes CRZrow21g {
+    50%  { background-color: #C01020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow21h {
+    animation-name: CRZrow21h;
+}
+
+@keyframes CRZrow21h {
+    50%  { background-color: #F8B810; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow22a {
+    animation-name: CRZrow22a;
+}
+
+@keyframes CRZrow22a {
+    50%  { background-color: #904020; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow22b {
+    animation-name: CRZrow22b;
+}
+
+@keyframes CRZrow22b {
+    50%  { background-color: #000000; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow22c {
+    animation-name: CRZrow22c;
+}
+
+@keyframes CRZrow22c {
+    50%  { background-color: #C85828; }
+    100% { background-color: #284858; }
+}
+
+.CRZrow22d {
+    animation-name: CRZrow22d;
+}
+
+@keyframes CRZrow22d {
+    50%  { background-color: #284858; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow22e {
+    animation-name: CRZrow22e;
+}
+
+@keyframes CRZrow22e {
+    50%  { background-color: #408080; }
+    100% { background-color: #F87838; }
+}
+
+.CRZrow22f {
+    animation-name: CRZrow22f;
+}
+
+@keyframes CRZrow22f {
+    50%  { background-color: #C85828; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow22g {
+    animation-name: CRZrow22g;
+}
+
+@keyframes CRZrow22g {
+    50%  { background-color: #F87838; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow22h {
+    animation-name: CRZrow22h;
+}
+
+@keyframes CRZrow22h {
+    50%  { background-color: #000000; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow22i {
+    animation-name: CRZrow22i;
+}
+
+@keyframes CRZrow22i {
+    50%  { background-color: #F8B810; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow22j {
+    animation-name: CRZrow22j;
+}
+
+@keyframes CRZrow22j {
+    50%  { background-color: #F8B810; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow22k {
+    animation-name: CRZrow22k;
+}
+
+@keyframes CRZrow22k {
+    50%  { background-color: #C01020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow23a {
+    animation-name: CRZrow23a;
+}
+
+@keyframes CRZrow23a {
+    50%  { background-color: #904020; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow23b {
+    animation-name: CRZrow23b;
+}
+
+@keyframes CRZrow23b {
+    50%  { background-color: #000000; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow23c {
+    animation-name: CRZrow23c;
+}
+
+@keyframes CRZrow23c {
+    50%  { background-color: #C85828; }
+    100% { background-color: #284858; }
+}
+
+.CRZrow23d {
+    animation-name: CRZrow23d;
+}
+
+@keyframes CRZrow23d {
+    50%  { background-color: #284858; }
+    100% { background-color: #408080; }
+}
+
+.CRZrow23e {
+    animation-name: CRZrow23e;
+}
+
+@keyframes CRZrow23e {
+    50%  { background-color: #408080; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow23f {
+    animation-name: CRZrow23f;
+}
+
+@keyframes CRZrow23f {
+    50%  { background-color: #408080; }
+    100% { background-color: #F87838; }
+}
+
+.CRZrow23g {
+    animation-name: CRZrow23g;
+}
+
+@keyframes CRZrow23g {
+    50%  { background-color: #408080; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow23h {
+    animation-name: CRZrow23h;
+}
+
+@keyframes CRZrow23h {
+    50%  { background-color: #C85828; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow23i {
+    animation-name: CRZrow23i;
+}
+
+@keyframes CRZrow23i {
+    50%  { background-color: #F87838; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow23j {
+    animation-name: CRZrow23j;
+}
+
+@keyframes CRZrow23j {
+    50%  { background-color: #000000; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow23k {
+    animation-name: CRZrow23k;
+}
+
+@keyframes CRZrow23k {
+    50%  { background-color: #F8B810; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow23l {
+    animation-name: CRZrow23l;
+}
+
+@keyframes CRZrow23l {
+    50%  { background-color: #C01020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow24a {
+    animation-name: CRZrow24a;
+}
+
+@keyframes CRZrow24a {
+    50%  { background-color: #000000; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow24b {
+    animation-name: CRZrow24b;
+}
+
+@keyframes CRZrow24b {
+    50%  { background-color: #C85828; }
+    100% { background-color: #284858; }
+}
+
+.CRZrow24c {
+    animation-name: CRZrow24c;
+}
+
+@keyframes CRZrow24c {
+    50%  { background-color: #284858; }
+    100% { background-color: #408080; }
+}
+
+.CRZrow24d {
+    animation-name: CRZrow24d;
+}
+
+@keyframes CRZrow24d {
+    50%  { background-color: #408080; }
+    100% { background-color: #F87838; }
+}
+
+.CRZrow24e {
+    animation-name: CRZrow24e;
+}
+
+@keyframes CRZrow24e {
+    50%  { background-color: #408080; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow24f {
+    animation-name: CRZrow24f;
+}
+
+@keyframes CRZrow24f {
+    50%  { background-color: #408080; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow24g {
+    animation-name: CRZrow24g;
+}
+
+@keyframes CRZrow24g {
+    50%  { background-color: #F87838; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow24h {
+    animation-name: CRZrow24h;
+}
+
+@keyframes CRZrow24h {
+    50%  { background-color: #000000; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow24i {
+    animation-name: CRZrow24i;
+}
+
+@keyframes CRZrow24i {
+    50%  { background-color: #C01020; }
+    100% { background-color: #F8B810; }
+}
+
+.CRZrow25a {
+    animation-name: CRZrow25a;
+}
+
+@keyframes CRZrow25a {
+    50%  { background-color: #C85828; }
+    100% { background-color: #284858; }
+}
+
+.CRZrow25b {
+    animation-name: CRZrow25b;
+}
+
+@keyframes CRZrow25b {
+    50%  { background-color: #284858; }
+    100% { background-color: #408080; }
+}
+
+.CRZrow25c {
+    animation-name: CRZrow25c;
+}
+
+@keyframes CRZrow25c {
+    50%  { background-color: #408080; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow25d {
+    animation-name: CRZrow25d;
+}
+
+@keyframes CRZrow25d {
+    50%  { background-color: #408080; }
+    100% { background-color: #F87838; }
+}
+
+.CRZrow25e {
+    animation-name: CRZrow25e;
+}
+
+@keyframes CRZrow25e {
+    50%  { background-color: #408080; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow25f {
+    animation-name: CRZrow25f;
+}
+
+@keyframes CRZrow25f {
+    50%  { background-color: #C85828; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow25g {
+    animation-name: CRZrow25g;
+}
+
+@keyframes CRZrow25g {
+    50%  { background-color: #F87838; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow25h {
+    animation-name: CRZrow25h;
+}
+
+@keyframes CRZrow25h {
+    50%  { background-color: #000000; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow25i {
+    animation-name: CRZrow25i;
+}
+
+@keyframes CRZrow25i {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #F8B810; }
+}
+
+.CRZrow25j {
+    animation-name: CRZrow25j;
+}
+
+@keyframes CRZrow25j {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow26a {
+    animation-name: CRZrow26a;
+}
+
+@keyframes CRZrow26a {
+    50%  { background-color: #284858; }
+    100% { background-color: #408080; }
+}
+
+.CRZrow26b {
+    animation-name: CRZrow26b;
+}
+
+@keyframes CRZrow26b {
+    50%  { background-color: #284858; }
+    100% { background-color: #F87838; }
+}
+
+.CRZrow26c {
+    animation-name: CRZrow26c;
+}
+
+@keyframes CRZrow26c {
+    50%  { background-color: #284858; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow26d {
+    animation-name: CRZrow26d;
+}
+
+@keyframes CRZrow26d {
+    50%  { background-color: #408080; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow26e {
+    animation-name: CRZrow26e;
+}
+
+@keyframes CRZrow26e {
+    50%  { background-color: #F87838; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow26f {
+    animation-name: CRZrow26f;
+}
+
+@keyframes CRZrow26f {
+    50%  { background-color: #000000; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow26g {
+    animation-name: CRZrow26g;
+}
+
+@keyframes CRZrow26g {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #F8B810; }
+}
+
+.CRZrow26h {
+    animation-name: CRZrow26h;
+}
+
+@keyframes CRZrow26h {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow27a {
+    animation-name: CRZrow27a;
+}
+
+@keyframes CRZrow27a {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #284858; }
+}
+
+.CRZrow27b {
+    animation-name: CRZrow27b;
+}
+
+@keyframes CRZrow27b {
+    50%  { background-color: #284858; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow27c {
+    animation-name: CRZrow27c;
+}
+
+@keyframes CRZrow27c {
+    50%  { background-color: #284858; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow27d {
+    animation-name: CRZrow27d;
+}
+
+@keyframes CRZrow27d {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #F87838; }
+}
+
+.CRZrow27e {
+    animation-name: CRZrow27e;
+}
+
+@keyframes CRZrow27e {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.CRZrow27f {
+    animation-name: CRZrow27f;
+}
+
+@keyframes CRZrow27f {
+    50%  { background-color: #000000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow27g {
+    animation-name: CRZrow27g;
+}
+
+@keyframes CRZrow27g {
+    50%  { background-color: #F87838; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow27h {
+    animation-name: CRZrow27h;
+}
+
+@keyframes CRZrow27h {
+    50%  { background-color: #000000; }
+    100% { background-color: #F8B810; }
+}
+
+.CRZrow27i {
+    animation-name: CRZrow27i;
+}
+
+@keyframes CRZrow27i {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #F8B810; }
+}
+
+.CRZrow27j {
+    animation-name: CRZrow27j;
+}
+
+@keyframes CRZrow27j {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow28a {
+    animation-name: CRZrow28a;
+}
+
+@keyframes CRZrow28a {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #284858; }
+}
+
+.CRZrow28b {
+    animation-name: CRZrow28b;
+}
+
+@keyframes CRZrow28b {
+    50%  { background-color: #284858; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow28c {
+    animation-name: CRZrow28c;
+}
+
+@keyframes CRZrow28c {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
+
+.CRZrow28d {
+    animation-name: CRZrow28d;
+}
+
+@keyframes CRZrow28d {
+    50%  { background-color: #904020; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow28e {
+    animation-name: CRZrow28e;
+}
+
+@keyframes CRZrow28e {
+    50%  { background-color: #000000; }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow28f {
+    animation-name: CRZrow28f;
+}
+
+@keyframes CRZrow28f {
+    50%  { background-color: #000000; }
+    100% { background-color: #F8B810; }
+}
+
+.CRZrow28g {
+    animation-name: CRZrow28g;
+}
+
+@keyframes CRZrow28g {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow28h {
+    animation-name: CRZrow28h;
+}
+
+@keyframes CRZrow28h {
+    50%  { background-color: #F87838; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow29a {
+    animation-name: CRZrow29a;
+}
+
+@keyframes CRZrow29a {
+    50%  { background-color: #C85828; }
+    100% { background-color: #904020; }
+}
+
+.CRZrow29b {
+    animation-name: CRZrow29b;
+}
+
+@keyframes CRZrow29b {
+    50%  { background-color: #603000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow29c {
+    animation-name: CRZrow29c;
+}
+
+@keyframes CRZrow29c {
+    50%  { background-color: #C85828; }
+    100% { background-color: #603000; }
+}
+
+.CRZrow29d {
+    animation-name: CRZrow29d;
+}
+
+@keyframes CRZrow29d {
+    50%  { background-color: #F87838; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow29e {
+    animation-name: CRZrow29e;
+}
+
+@keyframes CRZrow29e {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #C01020; }
+}
+
+.CRZrow30a {
+    animation-name: CRZrow30a;
+}
+
+@keyframes CRZrow30a {
+    50%  { background-color: #603000; }
+    100% { background-color: #904020; }
+}
+
+.CRZrow30b {
+    animation-name: CRZrow30b;
+}
+
+@keyframes CRZrow30b {
+    50%  { background-color: #C85828; }
+    100% { background-color: #603000; }
+}
+
+.CRZrow30c {
+    animation-name: CRZrow30c;
+}
+
+@keyframes CRZrow30c {
+    50%  { background-color: #603000; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow30d {
+    animation-name: CRZrow30d;
+}
+
+@keyframes CRZrow30d {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #603000; }
+}
+
+.CRZrow31a {
+    animation-name: CRZrow31a;
+}
+
+@keyframes CRZrow31a {
+    50%  { background-color: #603000; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow31b {
+    animation-name: CRZrow31b;
+}
+
+@keyframes CRZrow31b {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #603000; }
+}
+
+.CRZrow31c {
+    animation-name: CRZrow31c;
+}
+
+@keyframes CRZrow31c {
+    50%  { background-color: #C85828; }
+    100% { background-color: #F87838; }
+}
+
+.CRZrow32a {
+    animation-name: CRZrow32a;
+}
+
+@keyframes CRZrow32a {
+    50%  { background-color: #F87838; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow32b {
+    animation-name: CRZrow32b;
+}
+
+@keyframes CRZrow32b {
+    50%  { background-color: #C85828; }
+    100% { background-color: #F87838; }
+}
+
+.CRZrow32c {
+    animation-name: CRZrow32c;
+}
+
+@keyframes CRZrow32c {
+    50%  { background-color: #904020; }
+    100% { background-color: #603000; }
+}
+
+.CRZrow32d {
+    animation-name: CRZrow32d;
+}
+
+@keyframes CRZrow32d {
+    50%  { background-color: #603000; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow32e {
+    animation-name: CRZrow32e;
+}
+
+@keyframes CRZrow32e {
+    50%  { background-color: #904020; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow32f {
+    animation-name: CRZrow32f;
+}
+
+@keyframes CRZrow32f {
+    50%  { background-color: #603000; }
+    100% { background-color: #904020; }
+}
+
+.CRZrow32g {
+    animation-name: CRZrow32g;
+}
+
+@keyframes CRZrow32g {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #603000; }
+}
+
+.CRZrow33a {
+    animation-name: CRZrow33a;
+}
+
+@keyframes CRZrow33a {
+    50%  { background-color: #904020; }
+    100% { background-color: #603000; }
+}
+
+.CRZrow33b {
+    animation-name: CRZrow33b;
+}
+
+@keyframes CRZrow33b {
+    50%  { background-color: #C85828; }
+    100% { background-color: #904020; }
+}
+
+.CRZrow33c {
+    animation-name: CRZrow33c;
+}
+
+@keyframes CRZrow33c {
+    50%  { background-color: #904020; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow33d {
+    animation-name: CRZrow33d;
+}
+
+@keyframes CRZrow33d {
+    50%  { background-color: #000000; }
+    100% { background-color: #904020; }
+}
+
+.CRZrow33e {
+    animation-name: CRZrow33e;
+}
+
+@keyframes CRZrow33e {
+    50%  { background-color: #904020; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow33f {
+    animation-name: CRZrow33f;
+}
+
+@keyframes CRZrow33f {
+    50%  { background-color: #603000; }
+    100% { background-color: #904020; }
+}
+
+.CRZrow33g {
+    animation-name: CRZrow33g;
+}
+
+@keyframes CRZrow33g {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #603000; }
+}
+
+.CRZrow34a {
+    animation-name: CRZrow34a;
+}
+
+@keyframes CRZrow34a {
+    50%  { background-color: #000000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow34b {
+    animation-name: CRZrow34b;
+}
+
+@keyframes CRZrow34b {
+    50%  { background-color: #A0A0A0; }
+    100% { background-color: #603000; }
+}
+
+.CRZrow34c {
+    animation-name: CRZrow34c;
+}
+
+@keyframes CRZrow34c {
+    50%  { background-color: #C85828; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow34d {
+    animation-name: CRZrow34d;
+}
+
+@keyframes CRZrow34d {
+    50%  { background-color: #C85828; }
+    100% { background-color: #A0A0A0; }
+}
+
+.CRZrow34e {
+    animation-name: CRZrow34e;
+}
+
+@keyframes CRZrow34e {
+    50%  { background-color: #000000; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow34f {
+    animation-name: CRZrow34f;
+}
+
+@keyframes CRZrow34f {
+    50%  { background-color: #603000; }
+    100% { background-color: #C85828; }
+}
+
+.CRZrow34g {
+    animation-name: CRZrow34g;
+}
+
+@keyframes CRZrow34g {
+    50%  { background-color: #603000; }
+    100% { background-color: #000000; }
+}
+
+.CRZrow34h {
+    animation-name: CRZrow34h;
+}
+
+@keyframes CRZrow34h {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #603000; }
+}
+
+.CRZrow35a {
+    animation-name: CRZrow35a;
+}
+
+@keyframes CRZrow35a {
+    50%  { background-color: #000000; }
+    100% { background-color: rgb(158, 218, 158); }
+}
+
+.CRZrow35b {
+    animation-name: CRZrow35b;
+}
+
+@keyframes CRZrow35b {
+    50%  { background-color: rgb(158, 218, 158); }
+    100% { background-color: #000000; }
+}
