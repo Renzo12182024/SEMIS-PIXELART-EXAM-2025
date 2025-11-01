@@ -1,16 +1,16 @@
 table {
     background-color: rgb(158, 218, 158);
+    width: 100%
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
     margin-top: 50px;
     border: 0.25px solid black;
     border-collapse: collapse;
 }
 
 th, td, tr {
-    height: 15px;
-    width: 15px;
+    height: 30px;
+    width: 30px;
 }
 
 .row12,
@@ -3437,4 +3437,5 @@ th, td, tr {
 @keyframes CRZrow35b {
     50%  { background-color: rgb(158, 218, 158); }
     100% { background-color: #000000; }
+
 }
